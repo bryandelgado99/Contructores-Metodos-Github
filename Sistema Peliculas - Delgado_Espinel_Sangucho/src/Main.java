@@ -15,5 +15,27 @@ public class Main {
 
         //Menu Inicial
         System.out.println("---------- Bienvenido a PeliMaster! ---------");
+
+        System.out.println("\n En los filmes, su rango de seleccion es 1-12.");
+        System.out.println("Por favor, seleccione el numero dela pelicula a conocer:");
+
+        Scanner entrada = new Scanner(System.in);
+        int opcion = entrada.nextInt(); //Creamos una vairble que permita ingresar en el selector
+
+        //Creamos un switch para poder hacer el selector de filmes
+        switch(opcion){
+            case 1:
+                film1.imprimir_Datos();
+                break;
+            case 2:
+                film2.imprimir_Datos();
+                break;
+            case 3:
+                film3.imprimir_Datos();
+                break;
+            default:
+                System.out.println("Filme no pertenece a la base de datos!");
+                break;
+        }
     }
 }
