@@ -84,13 +84,13 @@ public class Peliculas {
 
     //Método para imprimir datos de las películas
     public void imprimir_Datos() {
-        System.out.println("\nUsuario, su pelicula escogida es:" + this.nombre);
-        System.out.println("Su director fue:" + this.director);
-        System.out.println("Su actor principal fue:" + this.actor_principal);
-        System.out.println("Quien produjo la pelicula fue:" + this.productora);
-        System.out.println("Su genero es:" + this.genero);
-        System.out.println("Su pais es:" + this.pais);
-        System.out.println("Su año de estreno fue:" + this.anio);
-        System.out.println("Su taquilla fue:" + this.taquilla+ "\n");
+        System.out.println("\nUsuario, su pelicula escogida es: " + this.nombre);
+        System.out.println("Su director fue: " + this.director);
+        System.out.println("Su actor principal fue: " + this.actor_principal);
+        System.out.println("Quien produjo la pelicula fue:"  + this.productora);
+        System.out.println("Su genero es: " + this.genero);
+        System.out.println("Su pais es: " + this.pais);
+        System.out.println("Su año de estreno fue: " + this.anio);
+        System.out.println("Su taquilla fue: " + this.taquilla+ "\n");
     }
 }
