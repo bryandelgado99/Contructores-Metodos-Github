@@ -21,7 +21,6 @@ public class Main {
         Peliculas film7 = new Peliculas("Interestelar", "Christopher Nolan", "Matthew McConaughey",
                 "Paramount Pictures", "Ciencia Ficcion - Aventura","Estados Unidos",2014, "701,7 millones");
 
-
         //Menu Inicial
         System.out.println("---------- Bienvenido a PeliMaster! ---------");
 
