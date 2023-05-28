@@ -25,6 +25,8 @@ public class Main {
                 "Accion - Crimen - Drama", "Estados Unidos", 2022, "$770 millones");
         Peliculas film9 = new Peliculas("Contratiempo", "Oriol Paulo", "Mario Casas", "Think Studio",
                 "Misterio - Thriller", "España", 2016, "$30 millones");
+        Peliculas film10 = new Peliculas("Pinocho de Guillermo del Toro", "Guillermo del Toro", "Ewan McGregor",
+                "Netflix Animation", "Animacion - Fantasia - Musical", "Estados Unidos", 2022, "$108 millones")
 
         //Menu Inicial
         System.out.println("---------- Bienvenido a PeliMaster! ---------");
