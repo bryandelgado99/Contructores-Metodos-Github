@@ -23,6 +23,8 @@ public class Main {
 
         Peliculas film8 = new Peliculas("The Batman", "Matt Reeves", "Robert Pattinson", "Warner Bros. Pictures",
                 "Accion - Crimen - Drama", "Estados Unidos", 2022, "$770 millones");
+        Peliculas film9 = new Peliculas("Contratiempo", "Oriol Paulo", "Mario Casas", "Think Studio",
+                "Misterio - Thriller", "España", 2016, "$30 millones");
 
         //Menu Inicial
         System.out.println("---------- Bienvenido a PeliMaster! ---------");
