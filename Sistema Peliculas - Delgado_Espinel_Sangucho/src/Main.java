@@ -21,6 +21,9 @@ public class Main {
         Peliculas film7 = new Peliculas("Interestelar", "Christopher Nolan", "Matthew McConaughey",
                 "Paramount Pictures", "Ciencia Ficcion - Aventura","Estados Unidos",2014, "701,7 millones");
 
+        Peliculas film8 = new Peliculas("The Batman", "Matt Reeves", "Robert Pattinson", "Warner Bros. Pictures",
+                "Accion - Crimen - Drama", "Estados Unidos", 2022, "$770 millones");
+
         //Menu Inicial
         System.out.println("---------- Bienvenido a PeliMaster! ---------");
 
